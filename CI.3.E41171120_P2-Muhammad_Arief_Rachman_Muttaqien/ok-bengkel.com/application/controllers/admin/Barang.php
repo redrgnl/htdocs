@@ -15,13 +15,13 @@ class Barang extends CI_Controller {
     }
 
     public function index() {
-        $this->load->view("admin/barang");
+        $this->load->view("admin/barang/barang");
     }
 	
 	// Function yang digunakan untuk memanggil form Tambah data
 	public function Add()
 	{
-		
+		$this->load->view("admin/barang/tambah_barang");
 	}
 	
 	// Function yang digunakan untuk memanggil form Edit data

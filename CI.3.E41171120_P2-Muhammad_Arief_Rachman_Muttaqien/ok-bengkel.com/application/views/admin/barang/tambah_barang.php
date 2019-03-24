@@ -30,20 +30,28 @@
           <!-- Page Heading -->
           <div>
             <?php
-              echo heading("Helper HTML CodeIgniter | MalasNgoding.com", 1);
-              echo heading("Helper HTML CodeIgniter | MalasNgoding.com", 2);
-              echo heading("Helper HTML CodeIgniter | MalasNgoding.com", 3);
-              echo heading("Helper HTML CodeIgniter | MalasNgoding.com", 4);
-              echo heading("Helper HTML CodeIgniter | MalasNgoding.com", 5);
-              echo heading("Helper HTML CodeIgniter | MalasNgoding.com", 6);
+              echo heading("Tambah Data Barang | OK-Bengkel.com", 3);
             ?>
           </div>
 
           <!-- Content Row -->
+          <?php echo validation_errors(); ?>
           <div class="row">
-            <?php
-              
-            ?>
+            <form action="<?php echo base_url('admin/form_tambah_barang/aksi'); ?>" method="post">
+              <label>Nama Barang</label>
+              <input type="text" name="nama_barang" class="form-control">
+
+              <label>Deskripsi Barang</label>
+              <input type="text" name="deskripsi_barang" class="form-control">
+
+              <label>Harga Barang</label>
+              <input type="text" name="harga_barang" class="form-control">
+
+              <label>Stok Barang</label>
+              <input type="text" name="stok_barang" class="form-control">
+
+              <input type="submit" value="Submit" class="btn btn-primary mt-5">
+            </form>
           </div>
 
         </div>

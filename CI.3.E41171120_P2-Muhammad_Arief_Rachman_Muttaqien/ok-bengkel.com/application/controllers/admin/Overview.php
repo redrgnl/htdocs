@@ -14,8 +14,9 @@ class Overview extends CI_Controller {
         $this->load->view("admin/overview");
     }
 
+    // Memproses link ke view barang.php
     public function barang() {
-        $this->load->view("admin/barang");
+        $this->load->view("admin/barang/barang");
     }
 
 }

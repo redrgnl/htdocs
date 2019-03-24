@@ -34,7 +34,7 @@
         <div id="collapseMaster" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <a class="collapse-item" href="login.html">Supplier</a>
-            <a class="collapse-item" href="<?php echo base_url("admin/Overview/barang"); ?>">Barang</a>
+            <a class="collapse-item" href="<?php echo base_url("admin/barang"); ?>">Barang</a>
             <a class="collapse-item" href="forgot-password.html">Karyawan</a>
             <a class="collapse-item" href="forgot-password.html">User</a>
           </div>
