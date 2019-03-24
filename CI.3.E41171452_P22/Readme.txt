@@ -1,0 +1,5 @@
+ADY BAGUS SUGIH SUSANTO
+E41171452 TIF C
+
+Praktikum 2 
+Tutorial 1- 8
