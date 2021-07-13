@@ -2,6 +2,6 @@
       Golongan C
 
 - Maulana Malik Ibrahim
-- Muhammad Arief Rachman Muttaqien
+- Black Unicorn
 - Aviccenna Maula
 - Ady Bagus Sugih Susanto
